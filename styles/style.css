@@ -15,7 +15,7 @@
 /* banner container styles */
 
 .banner-container {
-  width: 1440px;
+  width: 1439px;
   height: 652px;
   background-image: url('/assets/Hero-bg.png');
   background-position: center;
@@ -63,4 +63,195 @@
   font-size: 20px;
   font-weight: 600;
   line-height: 23px;
+}
+
+/* web-dev-container */
+
+.web-dev-container {
+  height: 1400px;
+  width: 1440px;
+  margin: 80px auto;
+}
+
+.web-dev-content {
+  height: 1360px;
+  width: 1140px;
+  align-items: center;
+  text-align: center;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+  padding: 80px 0;
+  margin: 0 auto;
+}
+
+.web-dev-text h2 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+}
+
+.web-dev-text p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+/* services container styles */
+
+.services-section {
+  padding: 48px;
+  margin: 0 auto;
+  height: 1395px;
+}
+.first-service {
+  display: flex;
+  flex-direction: start;
+  justify-content: space-between;
+  margin: 0 auto;
+  gap: 100px;
+  width: 946px;
+  height: 270px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 16px;
+  padding: 48px;
+  overflow: hidden;
+}
+/* .first-service-content {
+  width: 477px;
+} */
+.first-service-content h6{
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+.first-service-content p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+.first-service-content button {
+  padding: 12px 20px 12px 20px;
+  margin-left: 0;
+  margin-top: 32px;
+  align-items: left;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  background: #fff;
+  border: 1px solid rgb(13, 19, 33);
+}
+
+.service-image {
+  height: 240px;
+  width: 240px;
+}
+
+/* second services styles */
+
+.second-service {
+  display: flex;
+  flex-direction: start;
+  justify-content: space-between;
+  margin: 32px auto;
+  gap: 100px;
+  width: 946px;
+  height: 270px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 16px;
+  padding: 48px;
+  overflow: hidden;
+
+}
+
+.second-service-content h6{
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 700;
+  height: 42px;
+  line-height: 36px;
+  text-align: left;
+  margin-top: 0;
+}
+.second-service-content p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+.second-service-content button {
+  padding: 12px 20px 12px 20px;
+  margin-left: 0;
+  margin-top: 32px;
+  align-items: left;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  background: #fff;
+  border: 1px solid rgb(13, 19, 33);
+}
+
+/* third service section styles */
+.third-service {
+  display: flex;
+  flex-direction: start;
+  justify-content: space-between;
+  margin: 0 auto;
+  gap: 100px;
+  width: 946px;
+  height: 270px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 16px;
+  padding: 48px;
+  overflow: hidden;
+}
+.third-service-content h6{
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 700;
+  height: 42px;
+  line-height: 36px;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+.third-service-content p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+.third-service-content button {
+  padding: 12px 20px 12px 20px;
+  margin-left: 0;
+  margin-top: 32px;
+  align-items: left;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  background: #fff;
+  border: 1px solid rgb(13, 19, 33);
 }
