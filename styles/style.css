@@ -262,6 +262,8 @@
   border: 1px solid rgb(13, 19, 33);
 }
 
+/* inspiration section styles */
+
 .inspiration-container {
   display: flex;
   flex-direction: column;
@@ -288,8 +290,82 @@
   text-align: center;
   margin: 24px 0;
 }
-
 .video-content iframe {
   margin-top: 80px;
   border-radius: 16px;
+}
+
+/* target section styles */
+
+.target-content h3 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  text-align: center;
+}
+.target-content p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+
+.skills-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: left;
+  gap: 24px;
+  align-items: left;
+  width: 1140px;
+  height: 299px;
+  margin: 0 auto;
+}
+
+.skill {
+  margin-top: 50px;
+  padding: 40px;
+  width: 364px;
+  height: 270px;
+  border-radius: 16px;
+}
+.html {
+  background: rgba(255, 76, 30, 0.05);
+}
+.css {
+  background: rgba(0, 76, 232, 0.05);
+}
+.javascript {
+  background: rgba(255, 223, 0, 0.05);
+}
+.skill h4 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  text-align: left;
+  margin-bottom: 8px;
+}
+.skill p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  margin-bottom: 24px;
+}
+.skill a {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  text-align: left;
+  text-decoration-line: underline;
 }
