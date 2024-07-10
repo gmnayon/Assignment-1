@@ -12,6 +12,12 @@
     font-style: normal;
   }
 
+.main-container {
+  width: 1440px;
+  height: 5245px;
+  background: rgb(255, 255, 255);
+}
+
 /* banner container styles */
 
 .banner-container {
@@ -254,4 +260,36 @@
   line-height: 23px;
   background: #fff;
   border: 1px solid rgb(13, 19, 33);
+}
+
+.inspiration-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  
+}
+.inspiration-content h3 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.inspiration-content p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  margin: 24px 0;
+}
+
+.video-content iframe {
+  margin-top: 80px;
+  border-radius: 16px;
 }
