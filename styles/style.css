@@ -23,7 +23,7 @@
 .banner-container {
   width: 1439px;
   height: 652px;
-  background-image: url('/assets/Hero-bg.png');
+  background-image: url('./assets/Hero-bg.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -314,6 +314,7 @@
   text-align: center;
 }
 
+/* skill section styles */
 .skills-section {
   display: flex;
   flex-direction: row;
@@ -369,3 +370,27 @@
   text-align: left;
   text-decoration-line: underline;
 }
+
+/* support section styles */
+
+.support-container {
+  background-image: url("/assets/handshake.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin-top: 200px;
+}
+.support-section h4 {
+  padding-top: 20px;
+  margin-top: 100px;
+}
+
+/* .support-button input[type=text]{
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+} */
+
